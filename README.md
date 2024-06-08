@@ -1,4 +1,4 @@
-# awesome-DPO
+<img width="339" alt="image" src="https://github.com/sssth/awesome-DPO/assets/105367602/9ffadd21-eb6e-4e8d-9835-db8f28e9e1a2"># awesome-DPO
 Papers related to Direct Preference Optimization（DPO）
 
 
@@ -13,6 +13,8 @@ Papers related to Direct Preference Optimization（DPO）
 | Reinforcement Learning from Human Feedback with Active Queries | ADPO | arXiv24 | use active-learning and elimilate preference pairs with low reward differential || ![image](https://github.com/istarryn/LLM4REC/assets/105367602/af0fbd5b-3f02-425e-8018-67cf4d529f39)|
 | Direct Preference Optimization with an Offset| ODPO| arXiv24 | use offset to represent the likelihood of the preferred and dispreferred data | ![image](https://github.com/istarryn/LLM4REC/assets/105367602/55327f61-ebb6-47ab-9e18-f18e45a4651f)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/973bd5eb-d8c0-42cb-a763-0a4017949748)|
 | Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts|RPO|arXiv24|compare prefered response to all disprefered response in the dataset and use similarity of prompts to represent adaptive weight|![image](https://github.com/sssth/awesome-DPO/assets/105367602/764c9e2a-89d1-4d71-b93a-0d00da42622b)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/4f3b790c-07d5-4f39-b9b9-76655b8de13f)|
+| Noise Contrastive Alignment of Language Models with Explicit Rewards|NCA|arXiv24|regard DPO as a noise contrastive classification problem, design InfoNCA to make loss scalable to any response numbers, while design NCA to prevent likelihood of the best response continually decreases during training||![image](https://github.com/sssth/awesome-DPO/assets/105367602/7054e3b2-be44-46e2-a90b-4d10b0a90b21)|
+
 
 
 ### data construction
@@ -29,3 +31,5 @@ Papers related to Direct Preference Optimization（DPO）
 | Learn Your Reference Model for Real Good Alignment|TR-DPO|arXiv24|update SFT model using soft-update and hard-update|![image](https://github.com/istarryn/LLM4REC/assets/105367602/f96f57fe-94bd-490e-9f77-c6589c353fdc)|
 | sDPO: Don’t Use Your Data All at Once|sDPO|arXiv24|dividing the available preference datasets and utilizing them in a step-wise manner|![image](https://github.com/istarryn/LLM4REC/assets/105367602/0ceac2e8-c996-4cc1-9956-e1959d646b47)|
 | Direct Language Model Alignment from Online AI Feedback|OAIF|arXiv24|sample responses from current model during training and use LLM to annotate|![image](https://github.com/istarryn/LLM4REC/assets/105367602/44c94172-934b-4b51-a298-e9c669b36ba8)|
+| Self-Rewarding Language Models|Self-Rewarding|arXiv24|model itself acts as a reward model to construct preference pairs and update SFT model in interations|![image](https://github.com/sssth/awesome-DPO/assets/105367602/4ab7a888-fcaa-44ea-b80f-63b658c88484)|
+
