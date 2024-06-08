@@ -1,4 +1,4 @@
-<img width="339" alt="image" src="https://github.com/sssth/awesome-DPO/assets/105367602/9ffadd21-eb6e-4e8d-9835-db8f28e9e1a2"># awesome-DPO
+# awesome-DPO
 Papers related to Direct Preference Optimization（DPO）
 
 
