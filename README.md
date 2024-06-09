@@ -14,7 +14,7 @@ Papers related to Direct Preference Optimization（DPO）
 | Direct Preference Optimization with an Offset| ODPO| arXiv24 | use offset to represent the likelihood of the preferred and dispreferred data | ![image](https://github.com/istarryn/LLM4REC/assets/105367602/55327f61-ebb6-47ab-9e18-f18e45a4651f)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/973bd5eb-d8c0-42cb-a763-0a4017949748)|
 | Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts|RPO|arXiv24|compare prefered response to all disprefered response in the dataset and use similarity of prompts to represent adaptive weight|![image](https://github.com/sssth/awesome-DPO/assets/105367602/764c9e2a-89d1-4d71-b93a-0d00da42622b)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/4f3b790c-07d5-4f39-b9b9-76655b8de13f)|
 | Noise Contrastive Alignment of Language Models with Explicit Rewards|NCA|arXiv24|regard DPO as a noise contrastive classification problem, design InfoNCA to make loss scalable to any response numbers, while design NCA to prevent likelihood of the best response continually decreases during training||![image](https://github.com/sssth/awesome-DPO/assets/105367602/7054e3b2-be44-46e2-a90b-4d10b0a90b21)|
-
+| Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive|DPOP|arXiv24|find that datasets with small edit distance are more likely to suffer from likelihood decrease, add a regularisation to prevent|![image](https://github.com/sssth/awesome-DPO/assets/105367602/e37e6cde-8324-4887-92b1-289c20b7b375)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/43147341-2f71-47b4-ab6e-d5a4b0adf335)|
 
 
 ### data construction
