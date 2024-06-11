@@ -23,6 +23,7 @@ Papers related to Direct Preference Optimization（DPO）
 | Title | Method | Time  | Discription | Structure |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models| RS-DPO | arXiv24 | elimilate preference pairs with low reward differential using a explicit reward model and rejection sampling| ![image](https://github.com/istarryn/LLM4REC/assets/105367602/89f0420e-5a0e-4d3f-92d7-3de9ee5655f3)|
+| Aligning Large Language Models with Counterfactual DPO|Counterfactual DPO| arXiv24|add desired style imformation to the prompt to let LLM generate preference pairs automatically without human annotation| ![image](https://github.com/sssth/awesome-DPO/assets/105367602/f0143336-cbba-4389-b336-3245be15c1f7)|
 
 
 ### online DPO(update SFT policy during training)
