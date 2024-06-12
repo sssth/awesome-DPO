@@ -1,4 +1,4 @@
-![image](https://github.com/sssth/awesome-DPO/assets/105367602/fc9d03bf-ab92-4484-960b-67c22e6901bc)# awesome-DPO
+# awesome-DPO
 Papers related to Direct Preference Optimization（DPO）
 
 
@@ -21,6 +21,7 @@ Papers related to Direct Preference Optimization（DPO）
 | Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model|MPO|arXiv24| first train DPO on an easy dataset, and then perform RLHF on a difficult set with DPO model being the reference model|![image](https://github.com/sssth/awesome-DPO/assets/105367602/e7ebfe0b-8624-4fe1-8d0b-5925c36808f3)||
 | Negating Negatives: Alignment without Human Positive Samples via Distributional Dispreference Optimization|D2O|arXiv24|because high quality preference pairs are hard to get, use solely human-annotated negative samples and use trained model to generate positive data|![image](https://github.com/sssth/awesome-DPO/assets/105367602/9c20dafb-3d85-464f-a8fc-e4ad9e91555e)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/d6d23b2f-cb43-4f43-93e6-fc2559ebe2b1)|
 | Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF|XPO|arXiv24|add a regularization to DPO loss to enpower model explore outside the support of the initial model and human feedback data, use output of SFT model as negtive sample and use output of trained model as positive sample||![image](https://github.com/sssth/awesome-DPO/assets/105367602/cfafbe91-d952-4ff8-b42c-b857ffe0b26b)|
+| Towards Efficient and Exact Optimization of Language Model Alignment|EXO|arXiv24|confirm that DPO corresponds to minimizing the forward KL divegence while RLHF minimize the reverse KL divegence, leading to distinct solutions when considering the realistic constraints of model capacity, so they modify the DPO loss to be equal to reverse KL divegence|![image](https://github.com/sssth/awesome-DPO/assets/105367602/5f05e44b-d697-4156-8882-0bd7678d8da6)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/7edfefc9-a617-4ad7-aa3a-374563955447)|
 
 
 
