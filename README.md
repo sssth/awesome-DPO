@@ -18,6 +18,7 @@ Papers related to Direct Preference Optimization（DPO）
 | Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs|r-DPO|arXiv24|use self-critique prompt of teacher LLM to generate response as data, use another teacher LLM to score the data and use the score to modify the loss of DPO|![image](https://github.com/sssth/awesome-DPO/assets/105367602/62be8536-cdf8-4685-b598-81954c061288)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/09aa9255-1b08-4484-9acf-9083d251b627)|
 | Iterative Reasoning Preference Optimization|Interactive RPO|arXiv24|use CoT to let model generate response and reason, then use reward model to construct preference pairs; add NLL regularization to alleviate likelihood decrease and train model interactively|![image](https://github.com/sssth/awesome-DPO/assets/105367602/3a1a6156-403e-4952-be79-02303a8696e8)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/d9ea0ff5-856b-48a5-a083-28e2a73c7496)|
 | ORPO: Monolithic Preference Optimization without Reference Model|ORPO|arXiv24|find that SFT training increase the likelihood of undesired response, create a straightforward optimization without reference model|![image](https://github.com/sssth/awesome-DPO/assets/105367602/35d82015-1042-4b35-80d7-57de4964e713)|![image](https://github.com/sssth/awesome-DPO/assets/105367602/5f3b3332-454c-4ce5-adf1-043f124b2ba2)|
+| Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model|MPO|arXiv24| first train DPO on an easy dataset, and then perform RLHF on a difficult set with DPO model being the reference model|![image](https://github.com/sssth/awesome-DPO/assets/105367602/e7ebfe0b-8624-4fe1-8d0b-5925c36808f3)||
 
 
 
@@ -26,6 +27,7 @@ Papers related to Direct Preference Optimization（DPO）
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | Reinforcement Learning from Human Feedback with Active Queries | ADPO | arXiv24 | use active-learning and elimilate preference pairs with low reward differential | ![image](https://github.com/istarryn/LLM4REC/assets/105367602/af0fbd5b-3f02-425e-8018-67cf4d529f39)|
 | RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models| RS-DPO | arXiv24 | elimilate preference pairs with low reward differential using a explicit reward model and rejection sampling| ![image](https://github.com/istarryn/LLM4REC/assets/105367602/89f0420e-5a0e-4d3f-92d7-3de9ee5655f3)|
+| Filtered Direct Preference Optimization|f-DPO|arXiv24|disgard preference pairs with low reward in prefered response using a explicit reward model|![image](https://github.com/sssth/awesome-DPO/assets/105367602/2fe21743-f7dc-4552-a1bd-b345addb7226)|
 | Aligning Large Language Models with Counterfactual DPO|Counterfactual DPO| arXiv24|add desired style imformation to the prompt to let LLM generate preference pairs automatically without human annotation| ![image](https://github.com/sssth/awesome-DPO/assets/105367602/f0143336-cbba-4389-b336-3245be15c1f7)|
 
 
