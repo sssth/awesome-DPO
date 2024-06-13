@@ -44,3 +44,8 @@ Papers related to Direct Preference Optimization（DPO）
 | Direct Language Model Alignment from Online AI Feedback|OAIF|arXiv24|sample responses from current model during training and use LLM to annotate|![image](https://github.com/istarryn/LLM4REC/assets/105367602/44c94172-934b-4b51-a298-e9c669b36ba8)|
 | Self-Rewarding Language Models|Self-Rewarding|arXiv24|model itself acts as a reward model to construct preference pairs and update SFT model in interations|![image](https://github.com/sssth/awesome-DPO/assets/105367602/4ab7a888-fcaa-44ea-b80f-63b658c88484)|
 
+### response
+| Title | Method | Time  | Discription | Loss Function |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Disentangling Length from Quality in Direct Preference Optimization|R-DPO|arXiv24|indicate the verbosity bias in DPO, add a regularization term to prevent exploitation of length|![image](https://github.com/sssth/awesome-DPO/assets/105367602/edffc48b-3aca-448d-8549-8c2484b5d846)|
+
