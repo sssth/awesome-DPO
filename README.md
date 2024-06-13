@@ -48,4 +48,5 @@ Papers related to Direct Preference Optimization（DPO）
 | Title | Method | Time  | Discription | Loss Function |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | Disentangling Length from Quality in Direct Preference Optimization|R-DPO|arXiv24|indicate the verbosity bias in DPO, add a regularization term to prevent exploitation of length|![image](https://github.com/sssth/awesome-DPO/assets/105367602/edffc48b-3aca-448d-8549-8c2484b5d846)|
+| SimPO: Simple Preference Optimization with a Reference-Free Reward|Sim-DPO|arXiv24|modify the implicit reward to average log probability of response sequences and thus eliminate the need of reference model|![image](https://github.com/sssth/awesome-DPO/assets/105367602/be7ff27c-9c64-4a55-8d95-c8f40c14da6d)|
 
