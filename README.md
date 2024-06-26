@@ -2,7 +2,7 @@
 Papers related to Direct Preference Optimization（DPO）
 
 
-ADPO-Reinforcement Learning from Human Feedback with Active Queries[[pdf]](https://github.com/user-attachments/files/15983178/Ji.-.2024.-.Reinforcement.Learning.from.Human.Feedback.with.Ac.pdf)
+ADPO - Reinforcement Learning from Human Feedback with Active Queries [[pdf]](https://github.com/user-attachments/files/15983178/Ji.-.2024.-.Reinforcement.Learning.from.Human.Feedback.with.Ac.pdf)
 
 ### loss change
 | Title | Method | Time  | Discription | Structure | Loss Function|
