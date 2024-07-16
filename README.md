@@ -1,8 +1,8 @@
 # awesome-DPO
 Papers related to Direct Preference Optimization（DPO）
 
-（1）explicit reward model(dataset)
-ADPO - Reinforcement Learning from Human Feedback with Active Queries [[pdf]](https://github.com/user-attachments/files/15983178/Ji.-.2024.-.Reinforcement.Learning.from.Human.Feedback.with.Ac.pdf)
+（1）explicit reward model(dataset)  
+ADPO - Reinforcement Learning from Human Feedback with Active Queries [[pdf]](https://github.com/user-attachments/files/15983178/Ji.-.2024.-.Reinforcement.Learning.from.Human.Feedback.with.Ac.pdf)  
 APD - Active Preference Learning for Large Language Models [[pdf]](https://github.com/user-attachments/files/16242985/Muldrew.-.2024.-.Active.Preference.Learning.for.Large.Language.Mode.pdf)
 
 
