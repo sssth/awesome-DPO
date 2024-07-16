@@ -2,11 +2,11 @@
 Papers related to Direct Preference Optimization（DPO）
 
 （1）explicit reward model(dataset)  
-ADPO - Reinforcement Learning from Human Feedback with Active Queries [[pdf]](https://github.com/user-attachments/files/15983178/Ji.-.2024.-.Reinforcement.Learning.from.Human.Feedback.with.Ac.pdf)  
-APO - Active Preference Learning for Large Language Models [[pdf]](https://github.com/user-attachments/files/16242985/Muldrew.-.2024.-.Active.Preference.Learning.for.Large.Language.Mode.pdf)  
-f-DPO - Filtered Direct Preference Optimization [[pdf]](https://github.com/user-attachments/files/16242995/Morimura.-.2024.-.Filtered.Direct.Preference.Optimization.pdf)  
-RSO - Statistical Rejection Sampling Improves Preference Optimization [[pdf]](https://github.com/user-attachments/files/16243005/Liu.-.2024.-.Statistical.Rejection.Sampling.Improves.Preference.pdf)  
-RS-DPO - RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models [[pdf]](https://github.com/user-attachments/files/16243011/Khaki.-.2024.-.RS-DPO.A.Hybrid.Rejection.Sampling.and.Direct.Pre.pdf)
+ADPO - Reinforcement Learning from Human Feedback with Active Queries [[pdf]](https://arxiv.org/pdf/2402.09401)  
+APO - Active Preference Learning for Large Language Models [[pdf]](https://arxiv.org/pdf/2402.08114)  
+f-DPO - Filtered Direct Preference Optimization [[pdf]](https://arxiv.org/pdf/2404.13846)  
+RSO - Statistical Rejection Sampling Improves Preference Optimization [[pdf]](https://arxiv.org/pdf/2309.06657)  
+RS-DPO - RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models [[pdf]](https://arxiv.org/pdf/2402.10038)
 
 
 
