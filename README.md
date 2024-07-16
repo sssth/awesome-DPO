@@ -8,49 +8,79 @@ f-DPO - Filtered Direct Preference Optimization [[pdf]](https://arxiv.org/pdf/24
 RSO - Statistical Rejection Sampling Improves Preference Optimization [[pdf]](https://arxiv.org/pdf/2309.06657)  
 RS-DPO - RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models [[pdf]](https://arxiv.org/pdf/2402.10038)
 ## explicit reward model(loss)
-ODPO - Direct Preference Optimization with an Offset  
-Sr-DPO - Direct Alignment of Language Models via Quality-Aware Self-Refinement
-BRAIN - BRAIN: Bayesian Reward-conditioned Amortized INference for natural language generation from feedback
+ODPO - Direct Preference Optimization with an Offset [[pdf]](https://arxiv.org/pdf/2402.10571)  
+Sr-DPO - Direct Alignment of Language Models via Quality-Aware Self-Refinement [[pdf]](https://arxiv.org/pdf/2405.21040)  
+BRAIN - BRAIN: Bayesian Reward-conditioned Amortized INference for natural language generation from feedback [[pdf]](https://arxiv.org/pdf/2402.02479)  
 ## pairwise data structure expansion
-KTO - KTO: Model Alignment as Prospect Theoretic Optimization
-ULMA - ULMA: Unified Language Model Alignment with Human Demonstration and Point-wise Preference
-LiPO - LiPO: Listwise Preference Optimization through Learning-to-Rank
-Curry-DPO - Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences
-BCO - Binary Classifier Optimization for Large Language Model Alignment
+KTO - KTO: Model Alignment as Prospect Theoretic Optimization [[pdf]](https://arxiv.org/pdf/2402.01306)  
+ULMA - ULMA: Unified Language Model Alignment with Human Demonstration and Point-wise Preference [[pdf]](https://openreview.net/pdf?id=E5CMyG6jl0)  
+LiPO - LiPO: Listwise Preference Optimization through Learning-to-Rank [[pdf]](https://arxiv.org/pdf/2402.01878)  
+Curry-DPO - Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences [[pdf]](https://arxiv.org/pdf/2403.07230)  
+BCO - Binary Classifier Optimization for Large Language Model Alignment [[pdf]](https://arxiv.org/pdf/2404.04656)  
 ## other methods for data
-RPO - Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts
-D2O - Negating Negatives: Alignment without Human Positive Samples via Distributional Dispreference Optimization
-r-DPO - Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs
-XPO - Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF
+RPO - Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts [[pdf]]()  
+D2O - Negating Negatives: Alignment without Human Positive Samples via Distributional Dispreference Optimization [[pdf]]()  
+r-DPO - Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs [[pdf]]()  
+XPO - Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF [[pdf]]()  
 ## online/interactive DPO
-D2PO - D2PO: Discriminator-Guided DPO with Response Evaluation Models
-OAIF - Direct Language Model Alignment from Online AI Feedback
-sDPO - sDPO: Don’t Use Your Data All at Once
-TR-DPO - Learn Your Reference Model for Real Good Alignment
-Self-Rewarding - Self-Rewarding Language Models
-Interactive-DPO - Iterative Reasoning Preference Optimization
+D2PO - D2PO: Discriminator-Guided DPO with Response Evaluation Models [[pdf]]()  
+OAIF - Direct Language Model Alignment from Online AI Feedback [[pdf]]()  
+sDPO - sDPO: Don’t Use Your Data All at Once [[pdf]]()  
+TR-DPO - Learn Your Reference Model for Real Good Alignment [[pdf]]()  
+Self-Rewarding - Self-Rewarding Language Models [[pdf]]()  
+Interactive-DPO - Iterative Reasoning Preference Optimization [[pdf]]()  
 ## conparison methods
-PRO - Preference Ranking Optimization for Human Alignment
-SLiC-HF - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
+PRO - Preference Ranking Optimization for Human Alignment [[pdf]]()  
+SLiC-HF - SLiC-HF: Sequence Likelihood Calibration with Human Feedback [[pdf]]()  
 ## divergence
-f-DPO - Beyond Reverse KL: Generalizing Direct Preference Optimization with Diverse Divergence Constraints
-EXO - Towards Efficient and Exact Optimization of Language Model Alignment
+f-DPO - Beyond Reverse KL: Generalizing Direct Preference Optimization with Diverse Divergence Constraints [[pdf]]()  
+EXO - Towards Efficient and Exact Optimization of Language Model Alignment [[pdf]]()  
 ## sequence/token level optimization
-R-DPO - Disentangling Length from Quality in Direct Preference Optimization
-Sim-DPO - SimPO: Simple Preference Optimization with a Reference-Free Reward
-PCO - Some things are more CRINGE than others:Iterative Preference Optimization with the Pairwise Cringe Loss
-DPO - From r to Q∗: Your Language Model is Secretly a Q-Function
-TDPO - Token-level Direct Preference Optimization
+R-DPO - Disentangling Length from Quality in Direct Preference Optimization [[pdf]]()  
+Sim-DPO - SimPO: Simple Preference Optimization with a Reference-Free Reward [[pdf]]()  
+PCO - Some things are more CRINGE than others:Iterative Preference Optimization with the Pairwise Cringe Loss [[pdf]]()  
+DPO - From r to Q∗: Your Language Model is Secretly a Q-Function [[pdf]]()  
+TDPO - Token-level Direct Preference Optimization [[pdf]]()  
 ## other method for training
-ORPO - ORPO: Monolithic Preference Optimization without Reference Model
-MPO - Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model
-ICDPO - ICDPO: Effectively Borrowing Alignment Capability of Others via In-context Direct Preference Optimization
-ATO - Distributional Preference Alignment of LLMs via Optimal Transport
-VPO - Value-Incentivized Preference Optimization:A Unified Approach to Online and Offline RLHF
+ORPO - ORPO: Monolithic Preference Optimization without Reference Model [[pdf]]()  
+MPO - Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model [[pdf]]()  
+ICDPO - ICDPO: Effectively Borrowing Alignment Capability of Others via In-context Direct Preference Optimization [[pdf]]()  
+ATO - Distributional Preference Alignment of LLMs via Optimal Transport [[pdf]]()  
+VPO - Value-Incentivized Preference Optimization:A Unified Approach to Online and Offline RLHF [[pdf]]()  
 ## likelihood decrease/overfitting
-NCA - Noise Contrastive Alignment of Language Models with Explicit Rewards
-DPOP - Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive
-IPO - 
+NCA - Noise Contrastive Alignment of Language Models with Explicit Rewards [[pdf]]()  
+DPOP - Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive [[pdf]]()  
+IPO - A General Theoretical Paradigm to Understand Learning from Human Preferences [[pdf]]()  
+d-DPO - Robust Preference Optimization through Reward Model Distillation [[pdf]]()  
+## denoise
+r-DPO - Provably Robust DPO: Aligning Language Models with Noisy Feedback [[pdf]]()  
+Impact of Preference Noise on the Alignment Performance of Generative Language Models [[pdf]]()  
+## self-play DPO
+Nash Learning from Human Feedback [[pdf]]()  
+Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences [[pdf]]()  
+Human Alignment of Large Language Models through Online Preference Optimisation [[pdf]]()  
+Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models [[pdf]]()  
+Self-Play Preference Optimization for Language Model Alignment [[pdf]]()  
+A Minimaximalist Approach to Reinforcement Learning from Human Feedback [[pdf]]()  
+## multi objective
+Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment [[pdf]]()  
+Direct Preference Optimization With Unobserved Preference Heterogeneity [[pdf]]()  
+Group Robust Preference Optimization in Reward-free RLHF [[pdf]]()  
+Hybrid Preference Optimization: Augmenting Direct Preference Optimization with Auxiliary Objectives [[pdf]]()  
+Mallows-DPO: Fine-Tune Your LLM with Preference Dispersions [[pdf]]()  
+SPO: Multi-Dimensional Preference Sequential Alignment With Implicit Reward Modeling [[pdf]]()  
+## analysis paper
+A Mechanistic Understanding of Alignment Algorithms: A Case Study on DPO and Toxicity [[pdf]]()  
+Generalized Preference Optimization: A Unified Approach to Offline Alignment [[pdf]]()  
+Insights into Alignment: Evaluating DPO and its Variants Across Multiple Tasks [[pdf]]()  
+Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study [[pdf]]()  
+Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-constraint [[pdf]]()  
+Policy Optimization in RLHF: The Impact of Out-of-preference Data [[pdf]]()  
+Preference Learning Algorithms Do Not Learn Preference Rankings [[pdf]]()  
+Reward Model Learning vs. Direct Policy Optimization: A Comparative Analysis of Learning from Human Preferences [[pdf]]()  
+Towards Analyzing and Understanding the Limitations of DPO: A Theoretical Perspective [[pdf]]()  
+Understanding the performance gap between online and offline alignment algorithms [[pdf]]()  
+When is RL better than DPO in RLHF? A Representation and Optimization Perspective [[pdf]]()  
 
 
 
