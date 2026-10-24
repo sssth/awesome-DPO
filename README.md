@@ -22,6 +22,7 @@ RPO - Relative Preference Optimization: Enhancing LLM Alignment through Contrast
 D2O - Negating Negatives: Alignment without Human Positive Samples via Distributional Dispreference Optimization [[pdf]](https://arxiv.org/pdf/2403.03419)  
 r-DPO - Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs [[pdf]](https://arxiv.org/pdf/2402.08005)  
 XPO - Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF [[pdf]](https://arxiv.org/pdf/2405.21046)  
+LongMab-PO - Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization [[pdf]](https://arxiv.org/pdf/2508.13993)  
 ## online/interactive DPO
 D2PO - D2PO: Discriminator-Guided DPO with Response Evaluation Models [[pdf]](https://arxiv.org/pdf/2405.01511)  
 OAIF - Direct Language Model Alignment from Online AI Feedback [[pdf]](https://arxiv.org/pdf/2402.04792)  
